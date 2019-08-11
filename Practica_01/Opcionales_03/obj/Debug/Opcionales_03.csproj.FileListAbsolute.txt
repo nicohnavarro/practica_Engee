@@ -1,0 +1,7 @@
+C:\Users\nicolas\Desktop\nicolas\practica_Engee\Practica_01\Opcionales_03\bin\Debug\Opcionales_03.exe.config
+C:\Users\nicolas\Desktop\nicolas\practica_Engee\Practica_01\Opcionales_03\bin\Debug\Opcionales_03.exe
+C:\Users\nicolas\Desktop\nicolas\practica_Engee\Practica_01\Opcionales_03\bin\Debug\Opcionales_03.pdb
+C:\Users\nicolas\Desktop\nicolas\practica_Engee\Practica_01\Opcionales_03\obj\Debug\Opcionales_03.csprojAssemblyReference.cache
+C:\Users\nicolas\Desktop\nicolas\practica_Engee\Practica_01\Opcionales_03\obj\Debug\Opcionales_03.csproj.CoreCompileInputs.cache
+C:\Users\nicolas\Desktop\nicolas\practica_Engee\Practica_01\Opcionales_03\obj\Debug\Opcionales_03.exe
+C:\Users\nicolas\Desktop\nicolas\practica_Engee\Practica_01\Opcionales_03\obj\Debug\Opcionales_03.pdb
