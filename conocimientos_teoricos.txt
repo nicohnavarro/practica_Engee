@@ -1,0 +1,77 @@
+**********************************************************************************************
+Practica Engee
+Conocimientos Teoricos
+**********************************************************************************************
+(Ejercicios Obligatorios)
+
+1.Escribir una función que permita multiplicar dos números y obtener el resultado, 
+pero de esta forma:  multiplicar(a)(b);
+
+1. var multiplicar =function(a){
+        return function(b) {
+            return a*b;
+        };
+    }
+
+
+2.¿Cuál es la diferencia entre “==” e “===”?
+
+2. Los operadores == y != son los operadores de comparación relajada. 
+Es decir, si los operandos tienen tipos diferentes, 
+JavaScript trata de convertirlos para que fueran comparables.
+
+Los operadores === y !== son los operadores de comparación estricta. 
+Esto significa que si los operandos
+tienen tipos diferentes, no son iguales.
+
+----------------------------------------------------------------------------------------------
+
+(Ejercicios Opcionales)
+
+
+3.¿Cómo se verifica que un número es un entero?
+
+3.  Comprobando que el resto de la división del numero a analizar entre 1 sea igual a 0 
+lo que indicaría que es un numero entero
+
+
+4.¿Cómo se hace posible que el siguiente código funcione? 
+var arr = [1, 2, 3, 4, 5];
+var avg = arr.promedio();
+console.log(avg);
+
+4. Realizando un MÉTODO DE EXTENSIÓN o lo que se llama un prototipo
+
+Array.prototype.promedio=function(){
+    var sumatoria=0
+    for(i=0;i<this.length;i++){
+        sumatoria+=this[i];
+    }
+    return sumatoria/this.length;
+}
+
+
+5.Explicar que es una función de callback y dar un ejemplo.
+
+5. Es pasar una función como parámetro para que dicha función se encargue de ejecutar nuestro parámetro
+function hagoAlgo(callback) {
+    callback();
+}
+
+hagoAlgo(function(){
+    console.log('Hola Engee!!');
+})
+
+
+6.¿Por qué motivo la siguiente comparación arroja “false” como resultado y a que se debe?
+0.1 + 0.2 == 0.3
+
+6. Porque la aritmética de punto flotante no es siempre 100% exacto.
+0.1 + 0.2 == 0.30000000000000004
+
+
+7.¿Cuál es el resultado del siguiente código, y por qué motivo? Pista: No es el mismo motivo que el anterior.
+123456789101112.00 + 0.01
+
+7. El resultado es 123456789101112.02, porque cuando se trabaja con numeros de un determinado rango
+las operaciones aritméticas dan un resultado erróneo.
